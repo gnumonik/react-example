@@ -15,12 +15,19 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 7vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: top;
+  justify-content: top;
+  font-size: calc(10px + 3vmin);
+  color: white;
+}
+
+.AppBody {
+  background-color: #282c34;
+  height: 90vh;
+  display: flex;
   color: white;
 }
 
@@ -35,4 +42,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.TopLevelTabList{
+  background-color: #282c34;
+  color: white;
+}
+
+
+.frameContainer {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.ScriptFrame, .NFTFrame {
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+  border-radius: 5px 5px 5px 5px;
+  border: 1px solid;
+  height: 75vh;
+  width: 98vw;
+  background-color: lightgrey;
 }
